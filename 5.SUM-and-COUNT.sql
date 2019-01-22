@@ -16,10 +16,12 @@ SELECT COUNT(name) FROM world WHERE area>1000000
 SELECT SUM(population) FROM world
 WHERE name IN ('Estonia', 'Latvia', 'Lithuania');
 
-/* 5.6 Using GROUP BY and HAVING. Counting the countries of each continent. For each continent show the continent and number of countries. */
+/* 5.6 Using GROUP BY and HAVING. Counting the countries of each continent.
+For each continent show the continent and number of countries. */
 SELECT continent, COUNT(name) FROM world GROUP BY continent
 
-/* 5.7 For each continent show the continent and number of countries with populations of at least 10 million. */
+/* 5.7 For each continent show the continent and number of countries with
+populations of at least 10 million. */
 SELECT continent, COUNT(name) FROM world 
 WHERE population>10000000 GROUP BY continent
 
