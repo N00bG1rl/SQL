@@ -68,7 +68,8 @@ FROM game JOIN goal ON id=matchid
 WHERE teamid='GER'
 GROUP BY matchid, mdate
 
-/* 6.13 List every match with the goals scored by each team as shown. This will use "CASE WHEN" which has not been explained in any previous exercises. */
+/* 6.13 List every match with the goals scored by each team as shown.
+This will use "CASE WHEN" which has not been explained in any previous exercises. */
 SELECT mdate, team1,
   SUM(CASE WHEN teamid=team1 THEN 1 ELSE 0 END) score1,
   team2,
