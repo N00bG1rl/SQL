@@ -29,4 +29,4 @@ WHERE population>10000000 GROUP BY continent
 SELECT continent FROM world GROUP BY continent
 HAVING SUM(population)>100000000
 
-/* Your Quizz score is: 7 out of 8 */
+/* Your Quizz score is: 8 out of 8 */
