@@ -1,3 +1,9 @@
-Created by N00bG1rl
+# Databases
 
-Odin Project: SQL https://www.theodinproject.com/courses/databases/lessons/sql
+I created this for learn about relational databases.
+
+This was one of the projects from [The Odin Project](https://www.theodinproject.com/home) - Full Stack Curriculum.
+
+# Created at
+
+September 14, 2017
